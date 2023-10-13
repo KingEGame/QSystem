@@ -1,0 +1,163 @@
+<board monitor="2" visible="1" x="100" y="100">
+        <parameters>
+                <leftColumn visible="true">
+                        <caption>Кардар | Клиент | Client</caption>
+                        <font>Dialog-plain-100</font>
+                        <icon/>
+                        <fontColors>
+                                <color>#005898</color>
+                                <color>#005898</color>
+                        </fontColors>
+                </leftColumn>
+                <rightColumn visible="true">
+                        <caption>Терезе | Окно | Point</caption>
+                        <font>Dialog-plain-100</font>
+                        <icon/>
+                        <fontColors>
+                                <color>#005898</color>
+                                <color>#005898</color>
+                        </fontColors>
+                </rightColumn>
+                <extColumn order="3" visible="false">
+                        <caption/>
+                        <font>Dialog-plain-75</font>
+                        <icon/>
+                        <fontColors>
+                                <color>#000000</color>
+                        </fontColors>
+                </extColumn>
+                <row>
+                        <lineBorders>
+                                <border>0,0,0,0,#ffffaa</border>
+                                <border>0,0,0,0,#55aaff</border>
+                        </lineBorders>
+                        <lineColors>
+                                <color>#f1f1f1</color>
+                        </lineColors>
+                        <hint/>
+                        <hintColor>#f1f1f1</hintColor>
+                </row>
+                <header visible="true">
+                        <fontColor>#000000</fontColor>
+                        <font>Dialog-plain-50</font>
+                        <backgroundColor>#0186a0</backgroundColor>
+                        <border>0,0,0,0,#ffff00</border>
+                </header>
+                <rowCount>4</rowCount>
+                <columnCount>1</columnCount>
+                <backgroundImg>themes/tv1.jpg</backgroundImg>
+                <backgroundColor>#0186a0</backgroundColor>
+                <font>Dialog-plain-12</font>
+                <columnSeparator/>
+                <invitationMinTime>7</invitationMinTime>
+                <hideInvitationByStart>false</hideInvitationByStart>
+                <playSoundForVideo>true</playSoundForVideo>
+        </parameters>
+        <top size="0.178" visible="true">
+                <content><![CDATA[http://127.0.0.1:8081/timed.html]]></content>
+                <runningText/>
+                <speedRunningText>5</speedRunningText>
+                <font>Dialog-plain-70</font>
+                <fontColor>#ffff00</fontColor>
+                <simpleDate>false</simpleDate>
+                <backgroundImg>config/board/wall.jpg</backgroundImg>
+                <videoFile/>
+                <fractal/>
+                <nextTable visible="false">
+                        <columnCount>1</columnCount>
+                        <rowCount>5</rowCount>
+                        <caption/>
+                        <border>0</border>
+                        <font>Dialog-plain-70</font>
+                        <fontColor>#ffff00</fontColor>
+                </nextTable>
+                <location>top</location>
+        </top>
+        <left size="0.19" visible="false">
+                <content/>
+                <runningText/>
+                <speedRunningText>4</speedRunningText>
+                <font>Dialog-plain-40</font>
+                <fontColor>#000000</fontColor>
+                <simpleDate>false</simpleDate>
+                <backgroundImg/>
+                <videoFile>config/board/video.mpg1</videoFile>
+                <fractal/>
+                <nextTable visible="true">
+                        <columnCount>2</columnCount>
+                        <rowCount>5</rowCount>
+                        <caption/>
+                        <border>0</border>
+                        <font>Dialog-plain-40</font>
+                        <fontColor>#000000</fontColor>
+                </nextTable>
+                <location>left</location>
+        </left>
+        <right size="0.709" visible="true">
+                <content/>
+                <runningText/>
+                <speedRunningText>7</speedRunningText>
+                <font>Dialog-plain-80</font>
+                <fontColor>#005898</fontColor>
+                <simpleDate>false</simpleDate>
+                <backgroundImg>themes/tv_gr.png</backgroundImg>
+                <videoFile/>
+                <fractal>ex-config/fractal-part-board.xml</fractal>
+                <nextTable visible="true">
+                        <columnCount>2</columnCount>
+                        <rowCount>5</rowCount>
+                        <caption/>
+                        <border>0</border>
+                        <font>Dialog-plain-80</font>
+                        <fontColor>#005898</fontColor>
+                </nextTable>
+                <location>right</location>
+        </right>
+        <bottom size="0.77" visible="true">
+                <content><![CDATA[<html><center><span style='font-size:48.0pt;color:white'>KICB	Bank KYRGYZ INVESTMENT AND CREDIT BANK	www.kicb.net	+996312 620101</span></center>]]></content>
+                <runningText/>
+                <speedRunningText>4</speedRunningText>
+                <font>Dialog-plain-65</font>
+                <fontColor>#ffffff</fontColor>
+                <simpleDate>false</simpleDate>
+                <backgroundImg>themes/tv_bl.png</backgroundImg>
+                <videoFile/>
+                <fractal/>
+                <nextTable visible="false">
+                        <columnCount>2</columnCount>
+                        <rowCount>4</rowCount>
+                        <caption/>
+                        <border>0</border>
+                        <font>Dialog-plain-65</font>
+                        <fontColor>#ffffff</fontColor>
+                </nextTable>
+                <location>bottom</location>
+        </bottom>
+        <bottom2 size="0.561" visible="true">
+                <content/>
+                <runningText>USD 83.00\84.00 | EUR 87.20\88.20 | RUB 1.000\1.190 | KZT 0.125\0.210</runningText>
+                <speedRunningText>4</speedRunningText>
+                <font>Dialog-plain-60</font>
+                <fontColor>#005898</fontColor>
+                <simpleDate>false</simpleDate>
+                <backgroundImg>themes/tv1.jpg</backgroundImg>
+                <videoFile/>
+                <fractal/>
+                <nextTable visible="false">
+                        <columnCount>2</columnCount>
+                        <rowCount>4</rowCount>
+                        <caption/>
+                        <border>0</border>
+                        <font>Dialog-plain-60</font>
+                        <fontColor>#005898</fontColor>
+                </nextTable>
+                <location>bottom2</location>
+        </bottom2>
+        <invitePanel show="false" x="20" y="400">
+                <backgroundImg/>
+                <width>1240</width>
+                <height>300</height>
+                <showDelay>4</showDelay>
+                <htmlText><![CDATA[<p align=center><span style='font-size:80.0pt;color:black'>КЛИЕНТ &nbsp;&nbsp;&nbsp;&nbsp; ОКНО</span><BR><span style='font-size:160.0pt;color:red'> #client  →  #point #user #service #inputed</span></p>]]></htmlText>
+        </invitePanel>
+</board>

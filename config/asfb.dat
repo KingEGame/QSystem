@@ -1,0 +1,1 @@
+{"servers":[{"driver":"org.h2.Driver","url":"jdbc:mysql://127.0.0.1/qsystem?serverTimezone\u003dUTC\u0026useSSL\u003dfalse","user":"root","password":"root","main":true,"current":true,"name":"MySQL-local"}]}

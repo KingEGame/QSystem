@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rs485 bits="8" parity="true" delay="200" name="COM5" speed="9600" stopBits="1">
+    <operators>
+        <operator addressRS="31" comPort="COM5" point="1" position="5" protocol="2"/>
+        <operator addressRS="32" comPort="COM5" point="2" position="5" protocol="2"/>
+        <operator addressRS="33" comPort="COM5" point="3" position="5" protocol="2"/>
+        <operator addressRS="34" comPort="COM5" point="4" position="5" protocol="2"/>
+        <operator addressRS="35" comPort="COM5" point="5" position="5" protocol="2"/>
+        <operator addressRS="36" comPort="COM5" point="6" position="5" protocol="2"/>
+    </operators>
+    <ports>
+        <port bits="8" parity="false" name="COM2" speed="14400" stopBits="1"/>
+        <port bits="8" parity="true" name="COM3" speed="57600" stopBits="1"/>
+        <port bits="8" parity="false" name="COM4" speed="57600" stopBits="1"/>
+        <port bits="8" parity="true" name="COM5" speed="115200" stopBits="1"/>
+    </ports>
+    <protocols>
+        <akis brightness="254" default="false">Akis</akis>
+        <docash default="false">DoCash</docash>
+        <ledDisplayRu default="false">led-displays.ru</ledDisplayRu>
+        <qsystem default="true">QSystem</qsystem>
+        <solt default="false">Solt</solt>
+        <ssi default="false">SSI</ssi>
+        <svetovod default="false">Svetovod</svetovod>
+        <svetovodM fontName="Arial" fontSize="12" height="9" lenghtBy8="3" default="false">Svetovod M</svetovodM>
+    </protocols>
+</rs485>
